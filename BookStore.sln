@@ -35,6 +35,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BookStore-SPA", "src\BookSt
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "5812"
+		SlnRelativePath = "src\BookStore-SPA\"
 	EndProjectSection
 EndProject
 Global
