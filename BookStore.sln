@@ -13,9 +13,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CFA9E57D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.API.Tests", "tests\BookStore.API.Tests\BookStore.API.Tests.csproj", "{ADA6042D-3C86-42E1-ACE1-C42F90F48471}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Domain.Tests", "tests\BookStore.Domain.Tests\BookStore.Domain.Tests.csproj", "{61209E2E-0DB5-40C0-9E7C-BC87E02CE642}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Domain.Tests", "tests\BookStore.Domain.Tests\BookStore.Domain.Tests.csproj", "{61209E2E-0DB5-40C0-9E7C-BC87E02CE642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Infrastructure.Tests", "tests\BookStore.Infrastructure.Tests\BookStore.Infrastructure.Tests.csproj", "{A2248ECC-B85A-4CAF-BAD9-54CDAB9E4EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Infrastructure.Tests", "tests\BookStore.Infrastructure.Tests\BookStore.Infrastructure.Tests.csproj", "{A2248ECC-B85A-4CAF-BAD9-54CDAB9E4EB2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BookStore-SPA", "src\BookStore-SPA\", "{B6E9F2C7-2158-4FE2-900D-BA3779A122EE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5812"
+		Debug.AspNetCompiler.PhysicalPath = "src\BookStore-SPA\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5812\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5812"
+		Release.AspNetCompiler.PhysicalPath = "src\BookStore-SPA\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5812\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5812"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +67,10 @@ Global
 		{A2248ECC-B85A-4CAF-BAD9-54CDAB9E4EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2248ECC-B85A-4CAF-BAD9-54CDAB9E4EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2248ECC-B85A-4CAF-BAD9-54CDAB9E4EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E9F2C7-2158-4FE2-900D-BA3779A122EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E9F2C7-2158-4FE2-900D-BA3779A122EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E9F2C7-2158-4FE2-900D-BA3779A122EE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E9F2C7-2158-4FE2-900D-BA3779A122EE}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
